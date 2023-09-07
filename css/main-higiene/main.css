@@ -1,0 +1,68 @@
+main div .precios {
+  width: 24rem;
+}
+main div .precios section .alin {
+  text-align: start;
+}
+main div .precios .taman {
+  width: auto;
+  height: auto;
+  margin-left: 2rem;
+}
+main div .limpieza {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  background-color: #3d8af7;
+  border: solid black 2px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 25rem;
+  margin-bottom: auto;
+}
+main div .limpieza .borde {
+  border: solid black;
+  border-top: none;
+  border-bottom: none;
+}
+main div .limpieza .titulo {
+  border: solid 3px black;
+  background-color: white;
+  font-size: 0.95rem;
+  border-radius: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+main div .preguntas {
+  background-color: #3d8af7;
+  border: solid black 2px;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 15px;
+  width: 26rem;
+  height: auto;
+  margin-bottom: auto;
+}
+main div .preguntas .titulo_2 {
+  border: solid 3px black;
+  background-color: white;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+main div .preguntas .titulo_2 h5 {
+  font-size: 1rem;
+  border-bottom: solid black;
+  padding-bottom: 0.5rem;
+}
+main div .bordaso {
+  border: solid black;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,42 @@
+@media (max-width: 500px) {
+  main {
+    box-sizing: border-box;
+  }
+  main .fondos {
+    height: auto;
+    width: auto;
+  }
+  main .fondos div h2 {
+    height: auto;
+    width: 50%;
+    font-size: 1rem;
+  }
+  main .grideo {
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  main .grideo .tabla-1 {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 75%;
+    height: 95%;
+    justify-self: center;
+  }
+  main .grideo .tabla-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  main .grideo .lugar {
+    grid-column: span 1;
+  }
+  main .grideo .fuera_2 {
+    display: grid;
+  }
+  main .grideo .fuera {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.cel.css.map */

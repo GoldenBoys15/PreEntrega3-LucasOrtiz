@@ -1,0 +1,81 @@
+.inicio{
+    display: flex;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 35rem;
+    max-height: 35rem;
+}
+.carousel-inner{
+    height: 32rem;
+    width: 37rem;
+}
+
+main{
+    section{
+        display: flex;
+        justify-content: center;
+            div{
+                display: flex;
+                justify-content: center;
+                background-color: #3d8af7;
+                margin: 1rem 2rem;
+                border: solid 3px black;
+                padding: 0.2rem 0.2rem;
+                border-radius: 10px;
+                width: 35rem;
+                h2{
+                    border: solid 3px black;
+                    background-color: white;
+                    padding: 0.2rem 0.2rem;
+                    margin: 0.1rem 0.3rem;
+                    font-size: 0.95rem;
+                    border-radius: 1rem;
+                    width: 40rem;
+                    text-align: center;
+            }
+        }
+    }
+}
+
+main{
+    div{
+        article{
+            background-color: #3d8af7;
+            padding: 0.3rem 0.2rem;
+            margin: 1rem 2rem;
+            border: solid black;
+            text-align: center;
+            border-radius: 10px;
+            height: 15rem;
+            width: 15rem;
+            div{
+                background-color: white;
+                border-radius: 10px;
+                border: solid black;
+                padding-top: 0.6rem;
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+.horario{
+    background-color: white;
+    border-radius: 10px;
+    border: solid black;
+    padding-top: 0.3rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.tam-marcas{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+}

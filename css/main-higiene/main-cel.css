@@ -1,0 +1,26 @@
+@media (max-width: 500px) {
+  main .grideo-higiene {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  main .grideo-higiene .precios {
+    justify-self: center;
+    height: 90%;
+    width: 90%;
+  }
+  main .grideo-higiene .precios .taman {
+    align-items: center;
+    margin-left: 2rem;
+  }
+  main .grideo-higiene .limpieza {
+    justify-self: center;
+    width: 19rem;
+  }
+  main .grideo-higiene .preguntas {
+    grid-column: span 1;
+    width: 19rem;
+    height: 43rem;
+  }
+}
+
+/*# sourceMappingURL=main-cel.css.map */

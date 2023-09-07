@@ -1,0 +1,64 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header*/
+header {
+  background-color: #3d8af7;
+  display: flex;
+  border-bottom: solid black 3px;
+  justify-content: center;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+header div h1 {
+  border: solid black;
+  background-color: white;
+  padding: 0.2rem 0.3rem;
+  border-radius: 10px;
+}
+header div nav {
+  margin-top: 2rem;
+}
+header div nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+header div nav ul li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: solid black;
+  background-color: white;
+  padding: 0.2rem 0.3rem;
+  border-radius: 10px;
+}
+header div nav ul li a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 1rem 5rem 1rem 1rem;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+@media (max-width: 770px) {
+  header .logo {
+    margin: 1rem;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,43 @@
+@media (max-width: 500px) {
+    main{
+        box-sizing: border-box;
+        .fondos{
+            height: auto;
+            width: auto;
+            div{
+                h2{
+                    height: auto;
+                    width: 50%;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .grideo{
+            align-items: center;
+            
+            .tabla-1{
+                margin: 0.5rem;
+                padding: 0.5rem;
+                width: 75%;
+                height: 95%;
+                justify-self: center;
+            }
+            .tabla-2{
+                display: grid;
+                grid-template-columns:1fr;
+                grid-template-rows: 1fr ;
+            }
+            grid-template-columns:1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            .lugar{
+                grid-column: span 1;
+            }
+            .fuera_2{
+                display: grid;
+            }
+            .fuera{
+                display: none;
+            }
+        }
+    }
+}

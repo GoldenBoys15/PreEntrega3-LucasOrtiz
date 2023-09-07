@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+    main{
+        .fotacas{
+            display: none;
+        }
+        .grideo-accs{
+            grid-template-columns:1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+    }
+}

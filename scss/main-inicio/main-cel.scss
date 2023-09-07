@@ -1,0 +1,27 @@
+@media (max-width: 500px) {
+
+    main{
+        section{
+            .fondo-palabra{
+                h2{
+                    height: auto;
+                    width: auto;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .todo{
+            align-items: center;
+            flex-direction: column;      
+            .carousel-inner img {
+                width: 100%;
+                height: 100%;
+                max-height: 100rem;
+            }
+            .carousel-inner{
+                height: 15rem;
+                width: 20rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@media (max-width: 500px) {
+    main{
+        .flexear{
+            flex-direction: column;
+            iframe{
+                width: auto;
+                height: auto;
+                margin: 0;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

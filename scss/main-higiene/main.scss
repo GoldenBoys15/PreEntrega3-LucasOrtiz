@@ -1,0 +1,75 @@
+main{
+    div{
+        .precios{
+            
+            width: 24rem;
+            section{
+                .alin{
+                    text-align: start;
+                }
+            }
+            .taman{
+                width: auto;
+                height: auto;
+                margin-left: 2rem;
+            }
+        }
+        .limpieza{
+            display: flex;
+            flex-direction: column;
+            width: 20rem;
+            background-color: #3d8af7;
+            border: solid black 2px;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 15px;
+            width: 25rem;
+            
+            margin-bottom: auto;
+            .borde{
+                border: solid black;
+                border-top: none;
+                border-bottom: none;
+            }
+
+            .titulo{
+                border: solid 3px black;
+                background-color: white;
+                font-size: 0.95rem;
+                border-radius: 1rem;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                text-align: center;
+            }
+        }
+        .preguntas{
+            background-color: #3d8af7;
+            border: solid black 2px;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 15px;
+            width: 26rem;
+            height: auto;
+            margin-bottom: auto;
+            .titulo_2{
+                border: solid 3px black;
+                background-color: white;
+                font-size: 0.9rem;
+                border-radius: 1rem;
+                padding-top: 0.5rem;
+                padding-bottom: 0.5rem;
+                text-align: center;
+                margin-bottom: 0.5rem;
+                margin-top: 0.5rem;
+                h5{
+                    font-size: 1rem;
+                    border-bottom: solid black;
+                    padding-bottom: 0.5rem;
+                }
+            }
+        }
+        .bordaso{
+            border: solid black;
+        }
+    }
+}
